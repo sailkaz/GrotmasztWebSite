@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://grotmaszt.pl/$1 [R=301,L]
+
+
+
